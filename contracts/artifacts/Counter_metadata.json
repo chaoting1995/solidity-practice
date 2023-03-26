@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "increment",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Practice-Increment.sol": "Counter"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Practice-Increment.sol": {
+			"keccak256": "0xdb0935b48dcde19dad4d122ada131c766749171f25a4990846527024d4a21fcd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c994cc74898475e32545f96ef6eeef0b385c1a61a5cbc71465622729dedbd42d",
+				"dweb:/ipfs/QmeYj1oY5siSt8wzHQcivyHuCqo4gERuFwv6F51TgqXuGA"
+			]
+		}
+	},
+	"version": 1
+}

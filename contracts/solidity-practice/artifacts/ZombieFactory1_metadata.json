@@ -1,0 +1,60 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "zombies",
+				"outputs": [
+					{
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"name": "dna",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/solidity-practice/MathOperations.sol": "ZombieFactory1"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/solidity-practice/MathOperations.sol": {
+			"keccak256": "0x631aa024a4a13aba42e6924ab1ea168f3f2fdb64fe9f93249cf3f87706535f29",
+			"urls": [
+				"bzzr://dc1841ae5dd133ff48104cd70dc6b6a635082cd65a199eb6c5ff79bb941e8174"
+			]
+		}
+	},
+	"version": 1
+}
